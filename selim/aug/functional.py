@@ -6,6 +6,8 @@ import math
 from scipy.ndimage.filters import gaussian_filter
 from functools import wraps
 
+#pco augment the dataset
+
 
 def vflip(img):
     return cv2.flip(img, 0)

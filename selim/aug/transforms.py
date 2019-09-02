@@ -4,6 +4,8 @@ from aug.composition import Compose, OneOf, GrayscaleOrColor
 import aug.functional as F
 from imgaug import augmenters as iaa
 
+#pco augment the dataset
+
 
 class BasicTransform:
     def __init__(self, prob=0.5):
